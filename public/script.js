@@ -64,7 +64,7 @@ function createGraph(time, online) {
 }
 
 // Обновляем данные каждые 15 минут
-setInterval(fetchData, 15 * 60 * 1000);
+setInterval(fetchData, 5 * 60 * 1000);
 
 // Первый вызов, чтобы сразу отобразить график
 fetchData();
