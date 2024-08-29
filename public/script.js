@@ -2,7 +2,7 @@ const ctx = document.getElementById('34Chart5').getContext('2d');
 let chart = null;
 
 function fetchData() {
-    fetch('http://localhost:3000/data')
+    fetch('https://ppl-stats-back.onrender.com/data')
         .then(response => response.json())
         .then(data => {
             if (chart) {
